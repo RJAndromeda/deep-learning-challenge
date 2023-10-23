@@ -36,3 +36,11 @@ Module 21 Challenge - Rhiannyn Geeson
 
 1. **Summary**: Overall, the optimised model performs to the degree specified. The loss drops gradually from 50% to 44% over 75 epochs, which suggests it is still learning. The model performs on average loss of 45.6%, and an accuracy of 78.3%. The model would assist Alphabet Soup in their assessment of applications, thus it would fulfil its intended function.
 1. Other classification models could perform better in this instance, including tree-based algorithms. The data is not too complex, so that the decision tree would not be too complex or deep, and the decision logic is clear throughout the process, which would be easier to explain and show to the assessment board of Alphabet Soup should there be questions regarding how the model works, or if they would like to use the model as part of the decision-making process and would like to audit the results.
+
+**References**
+
+Noted in code, I adapted : umotto's solution  on https://stackoverflow.com/questions/51186330/save-model-weights-at-the-end-of-every-n-epochs), and also referred to https://medium.com/@italojs/saving-your-weights-for-each-epoch-keras-callbacks-b494d9648202 for saving after end of epochs.
+
+I referred to course materials, stackoverflow, TensorFlow.org: https://www.tensorflow.org/guide/keras/serialization_and_saving, https://www.tensorflow.org/model_optimization/guide/pruning/pruning_with_keras 
+
+, and https://wandb.ai/shweta/Activation%20Functions/reports/Activation-Functions-Compared-With-Experiments--VmlldzoxMDQwOTQ#the-parametric-relu-activation-function for more information on relu.
